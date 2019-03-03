@@ -80,7 +80,7 @@ module IntListStack =
     let pop (s : stack) : stack =
       match s with
       | [] -> raise EmptyStack
-      | _ :: t -> t
+      | _ :: tl -> tl
   end ;;
 
 (* Now let's use this implementation and consider some implications.

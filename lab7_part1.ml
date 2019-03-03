@@ -62,7 +62,7 @@ module Math : MATH =
     let cos _ = cos
     let sin _ = sin
     let sum _ _ = ( +. )
-    let max list =
+    let max lst =
       match lst with
         | [] -> None
         | hd :: tl -> Some (List.fold_left max hd tl)
