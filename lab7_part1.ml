@@ -59,9 +59,9 @@ temporary value pending your putting in appropriate ones.)
 module Math : MATH =
   struct
     let pi = 3.14159
-    let cos _ = cos
-    let sin _ = sin
-    let sum _ _ = ( +. )
+    let cos = cos
+    let sin = sin
+    let sum = ( +. )
     let max lst =
       match lst with
         | [] -> None
